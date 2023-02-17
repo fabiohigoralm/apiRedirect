@@ -12,7 +12,7 @@ app.post("/send", function (req, res, next) {
   return res.json(req.body);
 });
 
-app.get("/up", function (req, res, next) {
+app.get("/", function (req, res, next) {
   return res.json({ retornando: "A|L|G|O" });
 });
 
